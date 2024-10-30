@@ -1,0 +1,18 @@
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Django com MYSQL</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    {% bootstrap_css %}
+</head>
+<body>
+    <main><h1>Projeto Django com MYSQL</h1>
+            <a class="btn btn-primary" href="/contato" role="button">Contato</a>
+            <a class="btn btn-primary" href="/produto" role="button">Cadastro de Produto</a>
+    </main>
+{% bootstrap_javascript jquery='full' %}  
+</body>
+</html>
